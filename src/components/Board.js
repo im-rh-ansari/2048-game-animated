@@ -49,7 +49,6 @@ const BoardView = () => {
     }
     var deltaX = event.changedTouches[0].screenX - startX;
     var deltaY = event.changedTouches[0].screenY - startY;
-    console.log(deltaX, deltaY);
     var direction = -1;
 
     if (Math.abs(deltaX) > 3 * Math.abs(deltaY) && Math.abs(deltaX) > 30) {
