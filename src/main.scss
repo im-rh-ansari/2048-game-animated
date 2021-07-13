@@ -72,6 +72,18 @@ body {
   border-radius: 7px;
 }
 
+.footer-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.footer-credits {
+  color: #3d2963;
+  font-size: 10px;
+}
+
 .cell,
 .tile {
   width: 100px;
